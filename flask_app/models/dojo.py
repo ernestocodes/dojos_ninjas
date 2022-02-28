@@ -2,7 +2,7 @@ from flask_app.config.mysqlconnection import connectToMySQL
 import flask_app.models.ninja as ninja
 
 class Dojo:
-    def __init__(self,db_data):
+    def __init__(self,db_data): #data is a dictionary
         self.id = db_data['id']
         self.name = db_data['name']
         self.created_at = db_data['created_at']
