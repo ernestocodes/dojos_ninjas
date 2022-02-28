@@ -1,5 +1,4 @@
-from mysqlconnection import connectToMySQL
-
+from flask_app.config.mysqlconnection import connectToMySQL
 
 class Ninja:
     def __init__(self,db_data):

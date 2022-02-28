@@ -1,5 +1,5 @@
-from mysqlconnection import connectToMySQL
-import ninja
+from flask_app.config.mysqlconnection import connectToMySQL
+import flask_app.models.ninja as ninja
 
 class Dojo:
     def __init__(self,db_data):
